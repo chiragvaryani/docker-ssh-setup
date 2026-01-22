@@ -1,4 +1,3 @@
-Got it 👍 — your current README is clear, but we can make it **more professional, concise, and automated**. Right now, you’re doing a lot of manual steps inside the containers (like installing SSH and editing configs). A better approach is to **bake everything into the Dockerfile and setup script**, so users can just build and run without extra typing. Here’s an improved version:
 
 ---
 
@@ -150,12 +149,3 @@ Chirag Varyani
 
 ---
 
-✨ Improvements made:
-- Automated SSH setup in **Dockerfile** (no manual editing inside containers).  
-- Added **EXPOSE 22** and proper `CMD` for SSH server.  
-- Simplified networking with container names.  
-- Cleaner structure and formatting.  
-
----
-
-Would you like me to also prepare a **Windows PowerShell version** of the instructions, so users on Windows can follow without hitting issues with `'` in folder names or Git commands?
