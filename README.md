@@ -1,17 +1,4 @@
 # docker-ssh-setup
-
-
-
-Absolutely! Here's the \*\*entire README.md in one block\*\* that you can copy and paste directly:
-
-
-
----
-
-
-
-```markdown
-
 \# Docker SSH Setup Project
 
 
@@ -192,7 +179,7 @@ ssh root@<container1-IP>
 
 \# Example:
 
-ssh root@172.17.0.2
+ssh root@172.17.1.1
 
 ```
 
